@@ -1,7 +1,7 @@
 /* basic boxes / sizes */
 
 /* mobile */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 360px){
     main{
         width: 480px;
     }
@@ -36,9 +36,12 @@
     }
 }
 
+/* tablet */
+/* @media only screen and (max-width: 768px) */
+
 /* desktop */
 /* float */
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 960px){
     main{
         width: 960px;
     }
