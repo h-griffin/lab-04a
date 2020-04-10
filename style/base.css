@@ -1,0 +1,72 @@
+/* basic boxes / sizes */
+
+/* mobile */
+@media only screen and (max-width: 768px){
+    main{
+        width: 480px;
+    }
+
+    header{
+        width: 100%;
+        height: 75px;
+    }
+
+    aside {
+        /* width: 480px; */
+        width: 100%;
+        height: 150px;
+    }
+
+    section{
+        /* width: 480px; */
+        width: 100%;
+        height: 125px;
+    }
+
+    article{
+        /* width: 240px; */
+        width: 100%;
+        height: 250px;
+    }
+
+    footer{
+        /* width: 480px;  */
+        width: 100%;
+        height: 80px;
+    }
+}
+
+/* desktop */
+/* float */
+@media only screen and (min-width: 769px){
+    main{
+        width: 960px;
+    }
+    header{
+        /* width: 960px; */
+        width: 100%;
+        height: 100px;
+    }
+
+    aside{
+        width: 200px;
+        height: 600px;
+    }
+
+    section{
+        width: 380;
+        height: 200px;
+    }
+
+    article{
+        width: 190px;
+        /* width: 50%; */
+        height: 250px;
+    }
+
+    footer{ 
+        /* width: 760px; */
+        width: 100%;
+        height: 150px;
+    }
+}
