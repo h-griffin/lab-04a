@@ -1,0 +1,72 @@
+/* box styles / fonts and colors */
+
+/* mobile */
+@media only screen and (max-width: 768px){
+    *{
+        color: black;
+        font-family: monospace;
+        text-align: center;
+    }
+
+    main{
+        background-color: coral;
+    }
+
+    header{
+        background-color: rgb(76, 73, 255);
+    }
+
+    aside {
+        background-color: rgb(30, 29, 101);
+    }
+
+    section{
+        background-color: rgb(112, 196, 232);
+    }
+
+    article{
+        background-color: rgb(7, 55, 92);
+    }
+
+    footer{
+        background-color: rgb(42, 16, 174);
+    }
+}
+
+/* desktop */
+/* float */
+@media only screen and (min-width: 769px){ 
+    *{
+        color: black;
+        font-family: monospace;
+        text-align: center;
+    }
+    
+    main{
+        color: green;
+    }
+    header{
+
+        background-color: rgb(205, 83, 83);
+    }
+
+    aside{
+
+        background-color: rgb(240, 30, 30);
+    }
+
+    section{
+
+        background-color: rgb(96, 21, 21);
+    }
+
+    article{
+
+        background-color: rgb(228, 95, 24);
+    }
+
+    footer{ 
+
+        background-color: rgb(215, 151, 72);
+    }
+}

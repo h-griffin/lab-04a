@@ -1,0 +1,62 @@
+/* box location / placement */
+
+/* mobile */
+@media only screen and (max-width: 768px){
+
+    header{
+        line-height: 60px;
+    }
+
+    aside {
+        line-height: 145px;
+    }
+
+    section{
+        line-height: 110px;
+    }
+
+    article{
+        line-height: 240px;
+        /* display: inline-block; */
+        width: 50%;
+        float: left;
+    }
+
+    footer{
+        line-height: 70px;
+    }
+}
+
+/* desktop */
+/* float */
+@media only screen and (min-width: 769px){
+    header{
+        line-height: 90px;
+    }
+
+    aside{
+        line-height: 550px;
+        float: left;
+    }
+
+    section{
+        /* display: inline-block; */
+        line-height: 180px;
+        width: 380px;
+        float: left;
+    }
+
+    #articleHolder{
+        display: inline-block;
+    }
+
+    article{
+        line-height: 250px;
+        float: left;
+
+    }
+
+    footer{ 
+        line-height: 150px;
+    }
+}
