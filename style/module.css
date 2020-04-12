@@ -1,7 +1,7 @@
 /* box styles / fonts and colors */
 
 /* mobile */
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 360px){
     *{
         color: black;
         font-family: monospace;
@@ -24,8 +24,24 @@
         background-color: rgb(112, 196, 232);
     }
 
+    section:nth-child(4) {
+        background-color: rgb(61, 84, 94);
+    }
+
     article{
         background-color: rgb(7, 55, 92);
+    }
+
+    article:nth-child(2){
+        background-color: rgb(49, 91, 121);
+    }
+
+    article:nth-child(3){
+        background-color: rgb(133, 182, 216);
+    }
+
+    article:nth-child(4){
+        background-color: rgb(38, 60, 159);
     }
 
     footer{
@@ -33,9 +49,56 @@
     }
 }
 
+/* tablet */
+@media only screen and (min-width: 768px){
+    *{
+        color: black;
+        font-family: monospace;
+        text-align: center;
+    }
+    
+    main{
+        color: rgb(0, 58, 128);
+    }
+    header{
+        background-color: rgb(83, 49, 141);
+    }
+
+    aside{
+        background-color: rgb(120, 55, 232);
+    }
+
+    section{
+        background-color: rgb(63, 12, 145);
+    }
+
+    section:nth-child(4){
+        background-color: rgb(143, 113, 211);
+    }
+
+    article{
+        background-color: rgb(86, 44, 123);
+    }
+
+    article:nth-child(2){
+        background-color: rgb(52, 6, 92);
+    }
+
+    article:nth-child(3){
+        background-color: rgb(95, 56, 172);
+    }
+    article:nth-child(4){
+        background-color: rgb(164, 81, 236);
+    }
+
+    footer{ 
+        background-color: rgb(86, 26, 142);
+    }
+}
+
 /* desktop */
 /* float */
-@media only screen and (min-width: 769px){ 
+@media only screen and (min-width: 960px){ 
     *{
         color: black;
         font-family: monospace;
@@ -60,13 +123,26 @@
         background-color: rgb(96, 21, 21);
     }
 
-    article{
+    section:nth-child(4){
+        background-color: rgb(133, 60, 60);
+    }
 
+    article{
         background-color: rgb(228, 95, 24);
     }
 
-    footer{ 
+    article:nth-child(2){
+        background-color: rgb(172, 73, 46);
+    }
 
+    article:nth-child(3){
+        background-color: rgb(203, 122, 78);
+    }
+    article:nth-child(4){
+        background-color: rgb(179, 71, 24);
+    }
+
+    footer{ 
         background-color: rgb(215, 151, 72);
     }
 }
