@@ -1,8 +1,11 @@
 /* box location / placement */
 
 /* mobile */
-@media only screen and (max-width: 768px){
-
+@media only screen and (min-width: 360px){
+    main{
+        margin: 0 auto;
+    }
+    
     header{
         line-height: 60px;
     }
@@ -27,9 +30,50 @@
     }
 }
 
+/* tablet */
+@media only screen and (min-width: 768px){
+    main{
+        margin: 0 auto;
+    }
+    
+    header{
+        line-height: 70px;
+    }
+
+    aside{
+        line-height: 650px;
+        float: left;
+    }
+
+    section{
+        /* display: inline-block; */
+        line-height: 120px;
+        /* width: 380px; */
+        float: left;
+    }
+
+    #articleHolder{
+        display: inline-block;
+    }
+
+    article{
+        line-height: 250px;
+        float: left;
+    }
+
+    footer{ 
+        line-height: 80px;
+        display: inline-block;
+    }
+}
+
 /* desktop */
 /* float */
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 960px){
+    main{
+        margin: 0 auto;
+    }
+    
     header{
         line-height: 90px;
     }

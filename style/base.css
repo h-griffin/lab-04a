@@ -1,9 +1,9 @@
 /* basic boxes / sizes */
 
 /* mobile */
-@media only screen and (max-width: 360px){
+@media only screen and (min-width: 360px){
     main{
-        width: 480px;
+        width: 360px;
     }
 
     header{
@@ -30,14 +30,52 @@
     }
 
     footer{
-        /* width: 480px;  */
-        width: 100%;
+        width: 360px; 
+        /* width: 100%; */
         height: 80px;
+        display: inline-block;
     }
 }
 
 /* tablet */
-/* @media only screen and (max-width: 768px) */
+@media only screen and (min-width: 768px){
+    main{
+        width: 768px;
+    }
+
+    header{
+        width: 100%;
+        height: 75px;
+    }
+
+    aside {
+        /* width: 480px; */
+        width: 150px;
+        height: 833px;
+    }
+
+    section{
+        width: 618px;
+        /* width: 100%; */
+        height: 125px;
+    }
+
+    #articleHolder{
+        width:618px;
+    }
+
+    article{
+        width: 240px;
+        /* width: 25%; */
+        height: 250px;
+    }
+
+    footer{
+        width: 618px; 
+        /* width: 100%; */
+        height: 80px;
+    }
+}
 
 /* desktop */
 /* float */
@@ -53,12 +91,16 @@
 
     aside{
         width: 200px;
-        height: 600px;
+        height: 700px;
     }
 
     section{
         width: 380;
         height: 200px;
+    }
+
+    #articleHolder{
+        width: 760px;
     }
 
     article{
