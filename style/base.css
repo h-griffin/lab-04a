@@ -23,10 +23,17 @@
         height: 125px;
     }
 
+    #articleHolder{
+      display: flex;
+    }
+
     article{
         /* width: 240px; */
-        width: 100%;
+        width: 50%;
         height: 250px;
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     footer{
@@ -62,12 +69,14 @@
 
     #articleHolder{
         width:618px;
+        display: flex;
     }
 
     article{
         width: 240px;
         /* width: 25%; */
         height: 250px;
+        justify-content: space-evenly;
     }
 
     footer{
@@ -101,12 +110,14 @@
 
     #articleHolder{
         width: 760px;
+        display: flex;
     }
 
     article{
         width: 190px;
         /* width: 50%; */
         height: 250px;
+        justify-content: space-evenly;
     }
 
     footer{ 
